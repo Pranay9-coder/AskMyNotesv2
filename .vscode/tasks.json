@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Backend",
+			"type": "shell",
+			"command": "cd C:\\AskMyNotes\\backend && c:/python312/python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Start Backend Server",
+			"type": "shell",
+			"command": "Set-Location C:\\AskMyNotes\\backend; c:/python312/python.exe -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
