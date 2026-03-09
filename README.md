@@ -24,6 +24,7 @@ AskMyNotes is a closed-book Q&A assistant that answers only from user-uploaded n
 - PDF/Text parsing: PyMuPDF, pdfplumber, Tesseract OCR fallback
 - DB: SQLite
 - Deployment: Docker (dev/demo)
+- After devployment our website will be ready to use
 
 ## Installation (dev)
 1. Clone repo
